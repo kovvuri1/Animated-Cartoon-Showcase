@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right top, #c4abb9, #c3a8bf, #bea5c8, #b4a4d1, #a5a5db, #96ade7, #82b6f1, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+}
+#headtop{
+    background-color: palevioletred;
+    height: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: larger;
+    text-shadow: 5px 2px gray ;
+    animation-name: start1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+img{
+    width: 300px;
+    height: 350px;
+    margin-left:50px;
+    margin-top: 40px;
+    text-decoration: 5s;
+    transition-duration: 0s;
+    transition-delay: 1s;
+    border-radius: 10px;
+    border: 3px solid rgba(128, 128, 128, 0.879);
+    box-shadow:4px -1px 0px gray;
+}
+img:hover{
+
+    transform:rotate(12deg);
+}
+
+.bigimg{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(0.6,1);
+
+}
+@keyframes start1{
+    
+    100%{letter-spacing: 20px;}
+}
